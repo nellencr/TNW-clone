@@ -1,0 +1,47 @@
+nav {
+  width:100%;
+}
+
+@media (min-width: 768px) {
+  .nav-bar .events {
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    background: #131313;
+    display: flex;
+    margin-top: -7px;
+    height: 36px;
+  }
+}
+
+.events ul li {
+  list-style: none;
+}
+
+.events ul li a {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+}
+
+.left-events li a b {
+  color: rgb(255, 255, 255);
+}
+
+.left-events {
+  display: flex;
+  margin-left: -38px;
+  width: 29%;
+  margin-top: 5px;
+  justify-content: space-evenly;
+}
+
+.right-events {
+  display: grid;
+  justify-content: space-between;
+  float: right;
+  grid-template-columns: repeat(5,1fr);
+  margin-left: 646px;
+  margin-top: 5px;
+}
