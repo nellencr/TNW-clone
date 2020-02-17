@@ -6,7 +6,6 @@
 
 html {
   font-size: 65%;
-  font-family: "ARS Maquette", "Helvetica Neue", sans-serif;
 }
 
 .section-1 .events {
@@ -67,7 +66,7 @@ nav {
 
 .nav-bar .white-bar {
   display: flex;
-  top:0;
+  top: 0;
 }
 
 .nav-bar .white-bar a {
@@ -97,8 +96,7 @@ nav {
   padding: 5px;
 }
 
-.white-bar .nav-bar-icon {
-  /* border-left: 1px solid grey; */
+.white-bar .nav-bar-icons {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -107,15 +105,15 @@ nav {
   padding-right: 10px;
 }
 
-.white-bar .nav-bar-icon i {
+.white-bar .nav-bar-icons i {
   transform: scaleX(-1);
 }
 
-.nav-bar-icon menu {
+/* .nav-bar-icon .fa-bars {
   color: rgb(252, 80, 109);
-}
+} */
 
-.nav-bar-icon .fa-bars {
+.nav-bar-icons .fa-bars {
   display: none;
 }
 
@@ -129,13 +127,195 @@ nav {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
   font-weight: 500;
-  line-height: 32px; 
+  line-height: 32px;
 }
 
-.bigpictures .pic-content .pics text {
+.main-news-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 5px 4px;
+  height: 500px;
+}
+
+.main-news-container time {
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  left: auto;
+  right: 9px;
+}
+
+.main-news-container h5 {
+  font-size: 18px;
+}
+
+.main-news-container .left-news-container h2 {
+  font-size: 30px;
+}
+
+.main-news-container small a{
+  font-size: 12px;
+  text-decoration: none;
+  color: grey;
+}
+
+.main-news-container .right-news-container h2 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.right-news-container {
+  display: block;
+  width: 32%;
+}
+
+.left-news-container {
+  width: 67.666%;
+  background: center url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Cornavirus-796x418.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.gradient {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 50px black inset;
+  bottom: 0;
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.gradient:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.news-info {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.right-news-top {
+  background: center url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Elon-Song-796x418.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 49.5%;
+  margin-bottom: 1%;
+}
+
+.right-news-bottom {
+  background: center url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Elon-Song-796x418.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 49.5%;
+}
+
+.news-info-1 {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.news-info-2 {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.latest-news {
+  margin-bottom: 14%;
+}
+
+.latest-news img {
+  width: 100%;
+
+}
+.latest-news-container h2 {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  margin-left: 7.5%;
+}
+
+.latest-news-container h2 a {
   font-family: Avalon, sans-serif;
-  font-size: 40px;
-  /* font-weight: 40; */
-  /* line-height: 10px; */
-  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+}
+
+.latest-news-container .wrapper {
+  display: grid;
+  width: 85%;
+  justify-content: center;
+  grid-gap: 1%;
+  margin-left: 7.5%;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
+.latest-news p {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+}
+
+.latest-news p:hover {
+  color: rgb(255, 68, 34);
+  text-decoration: underline;
+}
+
+.latest-news small a {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+
+.fundings-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fundings-container .funding-links {
+  "ARS Maquette", "Helvetica Neue", Arial, sans-serif
+
+  Font size: 16px
+  
+  Font weight: 400
+  
+  Line height: 18px
+  
+  Font color: rgb(0, 0, 0)
+  color: rgb(255, 68, 34);
+  cursor: pointer;
+  float: right;
+}
+
+.fundings-container h3 {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(255, 68, 34);
+  cursor: pointer;
+}
+
+.fundings-container h3:hover {
+  color: black;
 }
