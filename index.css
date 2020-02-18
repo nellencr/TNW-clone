@@ -549,3 +549,67 @@ nav {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.latest-deals-container {
+  width: 100%;
+  margin-bottom: 12%;
+}
+
+.latest-deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+.latest-deals-header {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.latest-deals-header h3 {
+  margin-top: 20px;
+  margin-left: 10%;
+  color: rgb(255, 68, 34);
+  font-size: 28px;
+  font-family: Avalon, sans-serif;
+}
+
+.latest-deals-header h4 {
+  margin-top: 20px;
+  color: rgb(255, 68, 34);
+  font-size: 16px;
+  margin-right: 10%;
+  font-family: Avalon, sans-serif;
+}
+
+.latest-deals-header h4:hover {
+  color: black;
+}
+
+.deals img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.latest-deals .deals p {
+  font-size: 17px;
+  color: black;
+  font-weight: 700;
+  line-height: 1.2;
+
+}
+
+.latest-deals .deals small {
+  font-size: 12px;
+  color: grey;
+}
+
+.latest-deals .deals span {
+  font-size: 15px;
+  color: black;
+}
