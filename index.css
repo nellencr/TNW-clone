@@ -411,3 +411,141 @@ nav {
 .title-link .source {
   color: grey;
 }
+
+
+.articles-container {
+  margin-left: 76px;
+  overflow: hidden;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.article-header {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.popular {
+  background: url(images/bigpic1.png) no-repeat;
+  width: 84%;
+  height: 242px;
+  background-size: 100% 100%;
+  margin-bottom: 10px;
+}
+
+.popular-info {
+  position: relative;
+  right: -13px;
+  bottom: -70%;
+}
+
+.popular-info h5 {
+  font-size: 14px;
+  font-family: Shentox, sans-serif;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.popular-info h2 {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.popular-info h2:hover {
+  text-decoration: grey underline;
+}
+
+.popular-info small {
+  font-size: 12px;
+}
+
+.popular-info small a {
+  font-size: 12px;
+  color: lightgrey;
+  text-decoration: none;
+  line-height: 1.9;
+}
+
+.popular-info small a:hover {
+  color: rgb(255, 235, 232);
+}
+
+.article-gradient {
+  background: rgba(34, 33, 33, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0 0 50px rgb(38, 73, 73) inset;
+  bottom: 0;
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.latest-popular-news {
+  background: rgb(255, 244, 242);
+  padding: 14px 0px 1px 0px;
+  width: 84%;
+}
+
+.latest-popular-news h5 {
+  font-size: 12px;
+  color: #f42;
+  padding-left: 5px;
+}
+
+.latest-popular-news p {
+  font-size: 14px;
+  color: #f42;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.Elliptics {
+  width: 100%;
+  min-width: 140px;
+  max-width: 140px;
+  height: 97px;
+  margin-bottom: -53px;
+  margin-left: 209px;
+  position: relative;
+  top: -52px;
+  left: 0;
+  z-index: 10;
+}
+
+.popular-news-list {
+  margin-left: 18px;
+  width: 77%;
+}
+
+.popular-news-list li {
+  list-style: disc;
+  font-size: 13px;
+  color: rgb(255, 68, 34);
+  border-bottom: 1px solid lightgrey;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.popular-news-list li a {
+  text-decoration: none;
+  color: grey;
+  line-height: 2.1;
+}
+.popular-news-list li a:hover {
+  color: black;
+}
+
+.articles {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
