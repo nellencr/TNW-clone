@@ -162,10 +162,6 @@ main {
   color: rgb(255, 255, 255);
 }
 
-/* .left-events li {
-  padding-left: 1em;
-} */
-
 .left-events {
   display: flex;
   padding: 13px 15px;
@@ -216,8 +212,13 @@ nav {
   padding-right: 10px;
 }
 
-button {
-  font-size: 1.2rem;
+.fa-search {
+  font-size: 2rem;
+  opacity: 1;
+  color: grey;
+  border-right: 0.3px solid lightgrey;
+  height: 45px;
+  padding: 10px;
 }
 
 .funders-info i {
@@ -777,6 +778,10 @@ footer {
     display: none;
   }
 
+  .fa-search {
+    border-left: 0.3px solid lightgrey;
+  }
+
   .section-1 .events {
     height: 41px;
   }
@@ -910,15 +915,6 @@ footer {
     font-size: 2.2rem;
   }
 
-  button {
-    font-size: 1.5rem;
-    color: dimgrey;
-    border: 1px solid whitesmoke;
-    height: 48px;
-    opacity: 1;
-    padding: 15px;
-  }
-
   .yellow-bar {
     height: 60px;
     margin-bottom: -5px;
@@ -928,7 +924,7 @@ footer {
     width: 100%;
     margin: 0;
     display: grid;
-    padding: 13px;
+    padding: 5px;
   }
 
   .biglogo {
@@ -1067,5 +1063,54 @@ footer {
 
   .lower-footer .stack {
     width: 15%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .yellow-bar p {
+    font-size: 1.16rem;
+  }
+
+  .latest-news img {
+    width: 27%;
+    margin-left: -19px;
+  }
+
+  .latest-news .news-title {
+    margin-left: -221px;
+  }
+
+  .latest-news p {
+    font-size: 12px;
+  }
+
+  .latest-deals-header h3 {
+    font-size: 22px;
+  }
+
+  .latest-deals-header h4 {
+    margin-top: 27px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .deals img {
+    height: 60px;
+  }
+
+  .latest-deals .deals p {
+    margin-right: 2%;
+  }
+
+  .footer-list-icons li {
+    padding-left: 4px;
+  }
+
+  .lower-footer .stack {
+    width: 20%;
+  }
+
+  .lower-footer span {
+    display: block;
   }
 }
