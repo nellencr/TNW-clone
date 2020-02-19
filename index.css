@@ -668,6 +668,7 @@ button {
 .latest-deals .deals small {
   font-size: 12px;
   color: grey;
+  text-decoration: line-through;
 }
 
 .latest-deals .deals span {
