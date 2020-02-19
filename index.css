@@ -878,6 +878,10 @@ footer {
   .latest-deals-header h4 {
     margin-right: 3%;
   }
+
+  .lower-footer .stack {
+    width: 8%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1059,5 +1063,9 @@ footer {
     float: right;
     margin-top: 2%;
     margin-right: 31%;
+  }
+
+  .lower-footer .stack {
+    width: 15%;
   }
 }
