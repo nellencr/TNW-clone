@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 html {
   font-size: 65%;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -237,7 +242,7 @@ nav {
 }
 
 .latest-news img {
-  width: 100%;
+  width: 100%
 
 }
 
