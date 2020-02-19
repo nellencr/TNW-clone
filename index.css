@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 html {
   font-size: 65%;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -237,7 +242,7 @@ nav {
 }
 
 .latest-news img {
-  width: 100%;
+  width: 100%
 
 }
 
@@ -691,4 +696,122 @@ footer {
 .lower-footer img {
   position: relative;
   margin-bottom: -5px;
+}
+
+@media screen and (max-width: 768px) {
+  display: none;
+}
+
+.main-news-container {
+  width: 99%;
+}
+
+.white-bar a:nth-child(6) {
+  display: none;
+}
+
+.white-bar a:nth-child(7) {
+  display: none;
+}
+
+.white-bar a:nth-child(8) {
+  display: none;
+}
+
+.section-1 .events {
+  height: 41px;
+}
+
+.left-events {
+  margin-left: 88px;
+}
+
+.white-bar {
+  height: 44px;
+  padding: 0px;
+}
+
+.white-bar img {
+  display: inline-block;
+  margin-right: -158px;
+  height: 88px;
+  width: 100px;
+  margin-left: -4px;
+  margin-top: -45px;
+}
+
+.latest-news-container .wrapper {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.yellow-bar {
+  height: 52px;
+  margin-bottom: -5px;
+}
+
+.fundings-container {
+  width: 95%;
+  margin: 20px 10px 30px 20px;
+}
+
+.funding-header {
+  display: block;
+  justify-content: start;
+  margin: 0px 0px 54px 0px;
+  padding-bottom: 10px;
+}
+
+.funding-header .funding-links {
+  display: grid;
+  float: left;
+}
+
+.fundings .fund-cards:nth-child(4) {
+  display: none;
+}
+
+.fundings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.fund-cards {
+  width: 232px;
+}
+
+.articles-container {
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.popular-info {
+  position: relative;
+  right: -13px;
+  bottom: -72%;
+}
+
+.popular {
+  width: 100%;
+}
+
+.popular-news-list {
+  width: 94%;
+}
+
+.latest-popular-news {
+  width: 88%;
+}
+
+.latest-deals-container {
+  margin: auto;
+}
+
+.latest-deals {
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin-bottom: 45px;
+}
+
+.latest-deals-header h3 {
+  margin-left: 2%;
 }
