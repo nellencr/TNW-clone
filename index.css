@@ -734,6 +734,10 @@ footer {
     position: static;
   }
 
+  .white-bar-links {
+    display: none;
+  }
+
   html {
     overflow-x: hidden;
   }
@@ -996,8 +1000,13 @@ footer {
     margin-bottom: 8%;
   }
 
+  .latest-news small a {
+    margin-left: 13px;
+  }
+
   .latest-news p {
     font-size: 15px;
+    margin-left: 13px;
   }
 
   .latest-news img {
@@ -1056,14 +1065,16 @@ footer {
 
   .latest-deals .deals p {
     font-size: 15px;
-    float: right;
-    margin-top: 2%;
-    margin-right: 31%;
+    position: relative;
+    left: 109px;
+    top: -102px;
   }
 
   .lower-footer .stack {
     width: 15%;
+    min-width: 66px;
   }
+
 }
 
 @media screen and (max-width: 340px) {
@@ -1107,10 +1118,18 @@ footer {
   }
 
   .lower-footer .stack {
-    width: 20%;
-  }
-
-  .lower-footer span {
-    display: block;
+    width: 10%;
   }
 }
+
+/*@media screen and (max-width: 780px) {
+.wraper {
+    width: 39%;
+    margin: 0 auto;
+  }
+
+  .wraper span {
+    padding-top: 7px;
+  }
+}*
+/* * */
