@@ -191,7 +191,7 @@ nav {
 
 .nav-bar .white-bar {
   display: flex;
-  top: 0;0
+  top: 0;
 }
 
 .nav-bar .white-bar a:hover {
@@ -1429,6 +1429,10 @@ footer {
     margin-bottom: 8%;
   }
 
+  .funding-header a {
+    font-size: 13px;
+  }
+
   .latest-news small a {
     margin-left: 13px;
   }
@@ -1445,10 +1449,6 @@ footer {
   .funding-header h3 {
     font-size: 25px;
     line-height: 39px;
-  }
-
-  .funding-header a {
-    font-size: 13px;
   }
 
   .fund-cards {
