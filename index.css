@@ -49,6 +49,7 @@ main {
 
 .events ul li {
   list-style: none;
+  padding: 0 5px;
 }
 
 .funding-header a {
@@ -136,7 +137,7 @@ main {
   font-family: Shentox, sans-serif;
   font-size: 1.34rem;
   font-weight: 550;
-  line-height: 14px;
+  line-height: 1.3;
   color: rgb(170, 170, 170);
   text-decoration: none;
   padding-left: 0.5em;
@@ -165,14 +166,12 @@ main {
 .left-events {
   display: flex;
   padding: 13px 15px;
-  width: 35%;
   justify-content: space-between;
 }
 
 .right-events {
   display: flex;
   padding: 13px 15px;
-  width: 22%;
   justify-content: space-between;
 }
 
@@ -182,7 +181,7 @@ nav {
 
 .white-bar {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   height: 48px;
   align-items: center;
@@ -218,7 +217,7 @@ nav {
   color: grey;
   border-right: 0.3px solid lightgrey;
   height: 45px;
-  padding: 10px;
+  padding: 13px 12px 13px 7px;
 }
 
 .funders-info i {
@@ -231,6 +230,7 @@ nav {
 
 .nav-bar-icons a .fa-bars {
   display: none;
+  cursor: pointer;
 }
 
 .yellow-bar {
@@ -732,6 +732,10 @@ footer {
   nav,
   .white-bar div {
     position: static;
+  }
+
+  .white-bar-links {
+    display: none;
   }
 
   html {
@@ -1425,8 +1429,13 @@ footer {
     margin-bottom: 8%;
   }
 
+  .latest-news small a {
+    margin-left: 13px;
+  }
+
   .latest-news p {
     font-size: 15px;
+    margin-left: 13px;
   }
 
   .latest-news img {
@@ -1496,6 +1505,7 @@ footer {
 
   .lower-footer .stack {
     width: 15%;
+    min-width: 66px;
   }
 }
 
@@ -1588,10 +1598,6 @@ footer {
   }
 
   .lower-footer .stack {
-    width: 20%;
-  }
-
-  .lower-footer span {
-    display: block;
+    width: 10%;
   }
 }
