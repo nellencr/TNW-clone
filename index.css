@@ -1,0 +1,1202 @@
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 65%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.section-1 .events {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: black;
+  height: 45px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+main {
+  width: 100%;
+}
+
+.popular-news-list li {
+  list-style: disc;
+  font-size: 13px;
+  color: rgb(255, 68, 34);
+  border-bottom: 1px solid lightgrey;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.footer-list-icons li {
+  padding: 0 5px 5px;
+}
+
+.events ul li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.funding-header a {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(255, 68, 34);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-list-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #333;
+  border: 2px solid #333;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.lower-list a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: silver;
+  font-weight: 550;
+}
+
+.lower-footer a {
+  color: silver;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.latest-news-container h2 a {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+}
+
+.latest-news small a {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+
+.main-news-container small a {
+  font-size: 12px;
+  text-decoration: none;
+  color: grey;
+}
+
+.popular-info small a {
+  font-size: 12px;
+  color: lightgrey;
+  text-decoration: none;
+  line-height: 1.9;
+}
+
+.popular-news-list li a {
+  text-decoration: none;
+  color: grey;
+  line-height: 2.1;
+}
+
+.events ul li a {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.nav-bar .white-bar a {
+  font-family: Shentox, sans-serif;
+  font-size: 1.34rem;
+  font-weight: 550;
+  line-height: 1.3;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+
+.footer-list-icons a:hover {
+  color: black;
+}
+
+.popular-info small a:hover {
+  color: rgb(255, 235, 232);
+}
+
+.popular-news-list li a:hover {
+  color: black;
+}
+
+.events ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.left-events li a b {
+  color: rgb(255, 255, 255);
+}
+
+.left-events {
+  display: flex;
+  padding: 13px 15px;
+  justify-content: space-between;
+}
+
+.right-events {
+  display: flex;
+  padding: 13px 15px;
+  justify-content: space-between;
+}
+
+nav {
+  position: sticky;
+}
+
+.white-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 48px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.nav-bar .white-bar {
+  display: flex;
+  top: 0;
+}
+
+.nav-bar .white-bar a:hover {
+  color: grey;
+}
+
+.white-bar img {
+  display: none;
+}
+
+.white-bar .nav-bar-icons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+
+.fa-search {
+  font-size: 2rem;
+  opacity: 1;
+  color: grey;
+  border-right: 0.3px solid lightgrey;
+  height: 45px;
+  padding: 13px 12px 13px 7px;
+}
+
+.funders-info i {
+  color: black;
+}
+
+.white-bar .nav-bar-icons i {
+  transform: scaleX(-1);
+}
+
+.nav-bar-icons a .fa-bars {
+  display: none;
+  cursor: pointer;
+}
+
+.yellow-bar {
+  background: rgb(255, 221, 51);
+  padding-left: 13px;
+  width: 100%;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yellow-bar p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.main-news-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 5px 4px;
+  height: 500px;
+  width: 100%;
+}
+
+.biglogo {
+  width: 50%;
+}
+
+.main-news-container time {
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  left: auto;
+  right: 9px;
+}
+
+.main-news-container h5 {
+  font-size: 18px;
+}
+
+.latest-news-container h2 {
+  margin-bottom: 24px;
+}
+
+.popular-info h2 {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.main-news-container .left-news-container h2 {
+  font-size: 30px;
+}
+
+.main-news-container .right-news-container h2 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.right-news-container {
+  display: block;
+  width: 32%;
+}
+
+.left-news-container {
+  width: 67.666%;
+  background: center url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Cornavirus-796x418.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.gradient {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 50px black inset;
+  bottom: 0;
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.gradient:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.news-info {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.right-news-top {
+  background: center url("images/applemaps.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 49.5%;
+  margin-bottom: 1%;
+}
+
+.right-news-bottom {
+  background: center url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Elon-Song-796x418.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 49.5%;
+}
+
+.news-info-1 {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.news-info-2 {
+  position: absolute;
+  top: auto;
+  left: 13px;
+  right: 23px;
+  bottom: 3%;
+}
+
+.latest-news {
+  width: 100%;
+  margin-bottom: 14%;
+}
+
+.latest-news img {
+  width: 100%;
+}
+
+.latest-news .news-title {
+  width: 100%;
+}
+
+.latest-news-container {
+  width: 85%;
+  margin: 10% auto;
+}
+
+.latest-news-container .wrapper {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  grid-gap: 1%;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
+.latest-news p {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+}
+
+.latest-popular-news p {
+  font-size: 14px;
+  color: #f42;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.latest-news p:hover {
+  color: rgb(255, 68, 34);
+  text-decoration: underline;
+}
+
+.fundings-container {
+  width: 85%;
+  margin: 60px auto 60px;
+}
+
+.funding-header {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px auto 5px;
+  align-items: baseline;
+  width: 100%;
+}
+
+.funding-header h3 {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(255, 68, 34);
+  cursor: pointer;
+}
+
+.latest-deals-header h3 {
+  color: rgb(255, 68, 34);
+  font-size: 28px;
+  font-family: Avalon, sans-serif;
+}
+
+.funding-header h3:hover {
+  color: black;
+}
+
+.fundings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fund-cards {
+  width: 24%;
+}
+
+.fund-cards .card-top .top {
+  padding-left: 100px;
+  font-size: 20px;
+  color: white;
+  padding-right: 100px;
+  cursor: pointer;
+  background-color: rgb(255, 68, 34);
+}
+
+.card-info {
+  font-size: 17px;
+  text-align: center;
+  background-color: rgb(255, 235, 232);
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-info h5 {
+  font-size: 12px;
+  color: grey;
+  font-weight: 100;
+}
+
+.Elliptic {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin-bottom: -53px;
+  margin-left: -81.333333px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.card-middle {
+  background-color: rgb(252, 243, 242);
+  padding: 15px 0 15px 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 68, 34);
+}
+
+.funders-info {
+  font-size: 14px;
+  line-height: 1.6;
+  color: grey;
+  background-color: rgb(255, 250, 248);
+  text-decoration: none;
+}
+
+.card-bottom {
+  width: 100%;
+  background-color: rgba(250, 244, 244, 0.95);
+  padding: 15px;
+}
+
+.card-bottom .title-link {
+  font-size: 12px;
+  line-height: 2;
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.title-link .source {
+  color: grey;
+}
+
+.articles-container {
+  overflow: hidden;
+  grid-gap: 10px;
+  display: grid;
+  width: 85%;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.article-header {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.popular {
+  background: url(images/bigpic1.png) no-repeat;
+  width: 100%;
+  height: 242px;
+  background-size: 100% 100%;
+  margin-bottom: 10px;
+}
+
+.popular-info {
+  position: absolute;
+  right: auto;
+  bottom: 3%;
+  z-index: 1;
+  left: 3%;
+}
+
+.popular-info-card {
+  padding: 9px 8px 5px;
+  line-height: 1.5;
+}
+
+.popular-info h5 {
+  font-size: 14px;
+  font-family: Shentox, sans-serif;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.popular-info h2:hover {
+  text-decoration: grey underline;
+}
+
+.popular-info small {
+  font-size: 12px;
+}
+
+.article-gradient {
+  background: rgba(34, 33, 33, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0 0 50px rgb(38, 73, 73) inset;
+  bottom: 0;
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.latest-popular-news {
+  background: rgb(255, 244, 242);
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.latest-popular-news h5 {
+  font-size: 12px;
+  color: #f42;
+  padding-left: 5px;
+}
+
+.Elliptics {
+  width: 33%;
+  height: 85px;
+}
+
+.popular-news-list {
+  margin-left: 18px;
+  width: 77%;
+}
+
+.articles {
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.latest-deals-container {
+  width: 85%;
+  margin: 5% auto;
+}
+
+.deals {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.latest-deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 25px;
+  margin: auto;
+}
+
+.latest-deals-header {
+  display: flex;
+  cursor: pointer;
+  align-items: baseline;
+  flex-flow: row nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.latest-deals-header h4 {
+  color: rgb(255, 68, 34);
+  font-size: 16px;
+  font-family: Avalon, sans-serif;
+}
+
+.latest-deals-header h4:hover {
+  color: black;
+}
+
+.deals img {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.latest-deals .deals p {
+  font-size: 17px;
+  color: black;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.latest-deals .deals small {
+  font-size: 12px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.latest-deals .deals span {
+  font-size: 15px;
+  color: black;
+}
+
+footer {
+  position: sticky;
+  width: 100%;
+  height: 300px;
+}
+
+.upper-footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(19, 19, 19);
+  height: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-list-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer {
+  background: black;
+  height: 40%;
+  color: grey;
+  font-size: 14px;
+  font-weight: 550;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.lower-footer .fa-heart {
+  color: red;
+}
+
+.lower-footer img {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.lower-footer .stack {
+  width: 6%;
+  padding-bottom: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+  .latest-news-container {
+    margin: 10% auto 0;
+    width: 95%;
+  }
+
+  .latest-news-container .wrapper {
+    width: 100%;
+    grid-gap: 3%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fundings-container {
+    width: 95%;
+    margin: 60px auto 60px;
+  }
+
+  .funding-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 5px;
+    align-items: baseline;
+    width: 100%;
+    flex-flow: column;
+    line-height: 2.5;
+  }
+
+  .fundings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .fund-cards {
+    width: 32%;
+  }
+
+  .fund-cards:nth-child(4) {
+    display: none;
+  }
+
+  .Elliptics {
+    width: 29%;
+    height: 94px;
+  }
+
+  .popular-news-list {
+    margin-left: 18px;
+    width: 100%;
+  }
+
+  .articles-container {
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .latest-deals-container {
+    width: 95%;
+    margin: 5% auto;
+  }
+
+  .latest-deals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav,
+  .white-bar div {
+    position: static;
+  }
+
+  .white-bar-links {
+    display: none;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .right-events li {
+    padding-right: 1em;
+  }
+
+  .popular-news-list li {
+    list-style: disc;
+    font-size: 13px;
+    color: rgb(255, 68, 34);
+    border-bottom: 1px solid lightgrey;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+
+  .footer-list-icons li {
+    padding-left: 10px;
+  }
+
+  .events ul li {
+    padding-right: 10px;
+  }
+
+  .right-events {
+    display: none;
+  }
+
+  .main-news-container {
+    width: 99%;
+  }
+
+  .white-bar a:nth-child(6) {
+    display: none;
+  }
+
+  .white-bar a:nth-child(7) {
+    display: none;
+  }
+
+  .white-bar a:nth-child(8) {
+    display: none;
+  }
+
+  .fa-search {
+    border-left: 0.3px solid lightgrey;
+  }
+
+  .Elliptics {
+    width: 39%;
+    height: 85px;
+  }
+
+  .section-1 .events {
+    height: 41px;
+  }
+
+  .left-events {
+    margin-left: 88px;
+  }
+
+  .white-bar {
+    height: 44px;
+    padding: 0;
+  }
+
+  .white-bar img {
+    display: inline-block;
+    margin-right: -158px;
+    height: 88px;
+    width: 100px;
+    margin-left: -4px;
+    margin-top: -45px;
+  }
+
+  .latest-news-container .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .yellow-bar {
+    height: 52px;
+    margin-bottom: -5px;
+  }
+
+  .fundings-container {
+    width: 95%;
+    margin: 20px 10px 30px 20px;
+  }
+
+  .funding-header {
+    display: block;
+    justify-content: start;
+    margin: 0 0 54px 0;
+    padding-bottom: 10px;
+  }
+
+  .funding-header .funding-links {
+    display: grid;
+    float: left;
+  }
+
+  .fund-cards {
+    width: 232px;
+  }
+
+  .fundings .fund-cards:nth-child(4) {
+    display: none;
+  }
+
+  .fundings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .articles-container {
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .popular-info {
+    position: relative;
+    right: -13px;
+    bottom: -72%;
+  }
+
+  .popular {
+    width: 100%;
+  }
+
+  .popular-news-list {
+    width: 94%;
+  }
+
+  .latest-popular-news {
+    width: 100%;
+  }
+
+  .latest-deals-container {
+    margin: auto;
+  }
+
+  .latest-deals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-deals-header h3 {
+    margin-left: 2%;
+  }
+
+  .latest-deals-header h4 {
+    margin-right: 3%;
+  }
+
+  .lower-footer .stack {
+    width: 8%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-1 {
+    display: none;
+  }
+
+  .white-bar img {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    height: 48px;
+    margin-top: 0;
+  }
+
+  .white-bar {
+    height: 48px;
+  }
+
+  .white-bar-links {
+    display: none;
+  }
+
+  .nav-bar-icons a .fa-bars {
+    color: rgb(252, 80, 109);
+    display: block;
+    font-size: 2.2rem;
+  }
+
+  .yellow-bar {
+    height: 60px;
+    margin-bottom: -5px;
+  }
+
+  .main-news-container {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    padding: 5px;
+  }
+
+  .biglogo {
+    width: 0%;
+  }
+
+  .main-news-container time {
+    display: none;
+  }
+
+  .fundings-container {
+    margin: 0 auto;
+  }
+
+  .funding-header {
+    display: unset;
+    justify-content: space-between;
+    margin: -15px auto 5px;
+    align-items: baseline;
+    width: 100%;
+  }
+
+  .funding-links {
+    display: grid;
+  }
+
+  .popular-info h2 {
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .main-news-container .left-news-container h2 {
+    font-size: 21px;
+    line-height: 1.22;
+  }
+
+  .main-news-container .left-news-container h5 {
+    font-size: 12px;
+  }
+
+  .left-news-container {
+    height: 102%;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .right-news-container {
+    display: contents;
+  }
+
+  .right-news-top {
+    height: 100%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+
+  .main-news-container .right-news-container h2 {
+    font-size: 21px;
+    line-height: 1.22;
+  }
+
+  .main-news-container .right-news-container h5 {
+    font-size: 12px;
+  }
+
+  .right-news-bottom {
+    height: 105%;
+    margin-top: 3%;
+  }
+
+  .latest-news-container .wrapper {
+    display: block;
+  }
+
+  .latest-news {
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+
+  .latest-news p {
+    font-size: 13.5px;
+  }
+
+  .latest-news img {
+    width: 24%;
+    margin-right: 10px;
+  }
+
+  .funding-header h3 {
+    font-size: 25px;
+    width: 100%;
+    line-height: 39px;
+  }
+
+  .funding-header a {
+    font-size: 13px;
+  }
+
+  .fund-cards {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .fund-cards:nth-child(4) {
+    display: none;
+  }
+
+  .fundings {
+    display: block;
+    width: 100%;
+  }
+
+  .articles-container {
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+  }
+
+  .articles {
+    width: 100%;
+  }
+
+  .latest-popular-news {
+    width: 100%;
+  }
+
+  .Elliptics {
+    width: 25%;
+  }
+
+  .popular-news-list {
+    margin-left: 18px;
+    width: 100%;
+  }
+
+  .latest-deals-container {
+    width: 95%;
+  }
+
+  .latest-deals {
+    display: block;
+    margin-bottom: 8%;
+  }
+
+  .latest-deals-header h3 {
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .latest-deals-header h4 {
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .deals {
+    width: 100%;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+
+  .deals img {
+    width: 25%;
+    margin-right: 10px;
+    height: 60px;
+  }
+
+  .latest-deals .deals p {
+    font-size: 15px;
+  }
+
+  .lower-footer span {
+    display: block;
+  }
+
+  .lower-footer .stack {
+    width: 12%;
+  }
+}
