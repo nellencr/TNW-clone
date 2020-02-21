@@ -1514,12 +1514,28 @@ footer {
     margin-left: 5.5%;
   }
 
+  .latest-popular-news {
+    width: 84%;
+  }
+
   .latest-news p {
     font-size: 12px;
   }
 
+  .latest-popular-news p {
+    font-size: 12px;
+  }
+
+  .deals img {
+    width: 39%;
+    margin-top: 10px;
+    left: -34px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
   .latest-deals .deals p {
-    top: -77px;
+    top: -75px;
     left: 87px;
     position: relative;
   }
@@ -1535,7 +1551,7 @@ footer {
   .latest-news .news-title {
     position: relative;
     bottom: 3px;
-    right: -69px;
+    left: -245px;
   }
 
   .latest-news img {
@@ -1547,11 +1563,52 @@ footer {
   .latest-deals-header h3 {
     font-size: 22px;
     font-weight: 700;
+    margin-left: 0;
   }
 
   .latest-deals-header h4 {
     font-size: 15px;
     font-weight: 100;
+    margin-right: 0;
+  }
+
+  .fundings-container {
+    position: relative;
+    left: -67px;
+  }
+
+  .funding-header {
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    top: -20px;
+  }
+
+  .fundings-container .funding-links {
+    display: grid;
+  }
+
+  .articles-container {
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    left: -93px;
+  }
+
+  .popular-info {
+    position: relative;
+    right: -13px;
+    bottom: -65%;
+  }
+
+  .Elliptics {
+    left: -36px;
+    position: relative;
+    width: 36%;
+    height: 83px;
+    top: -52px;
+    z-index: 10;
+    margin-bottom: -53px;
+    margin-left: 209px;
   }
 }
 
@@ -1567,11 +1624,12 @@ footer {
 
   .latest-news .news-title {
     position: relative;
-    left: 83px;
+    left: -238px;
   }
 
   .latest-news p {
-    font-size: 11.4px;
+    font-size: 9.4px;
+    font-weight: 700;
   }
 
   .latest-deals-header h3 {
