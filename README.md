@@ -12,7 +12,7 @@ Responsive clone of [The Next Web](https://thenextweb.com/) website.
 - CSS
 
 ## Live Demo
- [Live Demo Link](https://raw.githack.com/nellencr/TNW-clone/feature/index.html)
+ [Live Demo](https://raw.githack.com/nellencr/TNW-clone/feature/index.html)
 
 ## Authors
 
