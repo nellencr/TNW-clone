@@ -728,7 +728,7 @@ footer {
   padding-bottom: 4px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 768px) {
   nav,
   .white-bar div {
     position: static;
