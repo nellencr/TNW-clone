@@ -1178,6 +1178,8 @@ footer {
 
   .deals {
     width: 100%;
+    flex-flow: row;
+    justify-content: flex-start;
   }
 
   .deals img {
