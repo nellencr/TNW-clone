@@ -2,7 +2,7 @@
 
 > The Next Web responsive clone
 
-![screenshot](/images/screen.png)
+**![screenshot](/images/screen.png)
 
 Responsive clone of [The Next Web](https://thenextweb.com/) website.
 
